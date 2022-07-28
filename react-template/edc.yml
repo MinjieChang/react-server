@@ -1,0 +1,31 @@
+# edc.yml
+# 入口设计 V2
+version: v2
+meta:
+  title: the best component for you
+  description: the best component for you
+dev: false
+build: { 
+  framework: react,
+  babelTypescript: false, 
+  typescript: false, 
+  css: ['less'],
+  output: {
+    sourcemap: 'inline',
+  },
+  extraBabelPlugins: ["@babel/plugin-transform-modules-commonjs"]
+}
+# eslint: false,
+# tslint: true,
+# css: [],
+# externals: {},
+# extraBabelPlugins: [],
+# loaderOptions: {}
+# profile: true,
+# monitor: true,
+component:
+  edcId: edc-id
+  type: Component
+  secret: 16ca5545
+  input: './index.js'
+  output: 'build'

@@ -1,0 +1,37 @@
+{
+  "code": 0,
+  "message": "成功",
+  "totalCount": "10",
+  "data": [
+    {
+      "id": 1,
+      "wcId": "weichant",
+      "wcName": "美团客服",
+      "bindPhone": "18700897762",
+      "bindUserName": "张宇",
+      "principle": "zhangyan99",
+      "status": 1,
+      "onlineStatus": 1
+    },
+    {
+      "id": 2,
+      "wcId": "weichant",
+      "wcName": "美团客服",
+      "bindPhone": "18700897762",
+      "bindUserName": "张宇",
+      "principle": "zhangyan99",
+      "status": 2,
+      "onlineStatus": 2
+    },
+    {
+      "id": 3,
+      "wcId": "weichant",
+      "wcName": "美团客服",
+      "bindPhone": "18700897762",
+      "bindUserName": "张宇",
+      "principle": "zhangyan99",
+      "status": 1,
+      "onlineStatus": 1
+    }
+  ]
+}

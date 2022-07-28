@@ -1,0 +1,27 @@
+{
+  "entry": "config/index.js",
+  "html": "config/index.html",
+  "cssModules": false,
+  "publicPath": "/",
+  "outputPath": "build",
+  "typescript": false,
+  "port": 8888,
+  "proxy": {
+    "/api": {
+      "target": "http://api.bike.test.sankuai.com",
+      "pathRewrite": {
+        "^/api": "/api"
+      },
+      "router": {
+        "a.local.sankuai.com:8888": "http://dailai-plrhy-sl-api.bike.test.sankuai.com",
+        "b.local.sankuai.com:8888": "http://11433-xrgap-sl-api.bike.test.sankuai.com",
+        "c.local.sankuai.com:8888": "http://testc-sl-api.bike.test.sankuai.com"
+      }
+    }
+  },
+  "mock": {
+    "watch": "/gov/*",
+    "api": "./src/utils/api.js"
+  },
+  "autoprefixer": null
+}
